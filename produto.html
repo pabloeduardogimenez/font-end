@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <style>
+        .produto{
+            margin-top: 100px;
+        }
+        .desconto{
+            font-size: small;
+
+        }
+        .desconto-antigo{
+            font-size: smaller;
+
+        }
+        .imagem{
+        background-image: url(https://http2.mlstatic.com/D_NQ_NP_835526-MLU77754866678_072024-F.webp);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 offset-4">
+                <div class="card">
+                    <img class="img-fluid" src="camera.png" alt="">
+                    <img class="imagem" src=""> 
+                    <div class="card-body">
+                        <h5 class="card-title"> Mercado Livre</h5>
+                        <h3 class="fs-5"> Notebook banzão barateza</h3>
+                        <p>
+                            <div class="row">
+                                <div class="col">
+                                        <span class="d-blok text-decoration-line-through desconto-antigo">R$ 3.459,50 </span>
+                                </div>
+                                <div class="col offset-2">
+                                    <span class="fs-5 fw-bold ">R$ 2.236,00 </span>
+                                    <span class="mx-3 text-success desconto">R$ 30% OFF </span>
+                                </div>
+                            </div>                     
+                            
+                            <button class="mt-3 mx-auto btn btn-primary d-blok"> 
+                                Compre Agora
+                            </button>
+                        </p>
+                
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

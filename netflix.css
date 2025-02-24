@@ -1,50 +1,22 @@
-* {
-    font-family: "Open Sans", sans-serif;
+.div{
+    border: 1px solid red;
+    padding: 6px;
+}
+.topo{
+    height: 60px;
+    margin-bottom: 10px;
+    border: 1px solid red;     
 }
 
-
-body {
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/0cf2c109-3af1-4a9d-87d7-aecfac5fe881/web/BR-pt-20250217-TRIFECTA-perspective_89944002-ca1f-4c83-b264-922250f76bef_large.jpg);
-    background-color: rgba(0, 0, 0, 0.658);
-    background-position: center;
-    background-blend-mode: darken;
-    padding: 0px;
-    background-repeat: no-repeat;
+.netflix{
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    display: inline-block; 
 }
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-
-    gap: 40vw;
-}
-
-.logo-img{
-    height: 80px;
-    align-self: center;
-}
-
-.buttons{
-    display: flex;
-}
-
-.conteudo{
-    width: 750px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    color: white;
-}
-
-h1{
-    width: 40vw;
-    font-size: 50px;
-    text-align: center;
-    font-size: 800;
-    margin-bottom: 5px;
-
+.entrar{
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    display: flex
 }
