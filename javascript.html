@@ -88,6 +88,15 @@
             }        
         
         }
+
+        function conversaoHorasMinutosSegundos(){
+            var hora = prompt("digite o numero de horas para conversão");
+
+            var minutos ;
+            minutos = hora * 60;
+            segundos = hora * 3600;
+            alert("Serão um total de " + minutos + " minutos e " + segundos + " segundos " );
+        }
       
     </script>
 </head>
@@ -95,7 +104,9 @@
     <H1>Aula de Javascript</H1>
     <button onclick="verifica_idade()">Idade</button>
 
-    <button onclick="maior()">Maior</button>        
+    <button onclick="maior()">Maior</button>  
+
+    <button onclick="conversaoHorasMinutosSegundos()">conversao Horas Minutos e segundos</button>        
         
    
     
