@@ -16,8 +16,7 @@
         var idade = 23;
         var peso =43.7;
         var acordado = true;
-
-        
+        var anoaltual = 2025;        
         /*
 
         < maior
@@ -35,30 +34,71 @@
             < 2 bebe
 
         /*
+        ano atual = 2025
 
         */
-        idade = prompt("Digite sua idade");  
-        if (idade >= 18) 
-        {
-            alert ("adulto");
-        }    
-         else if (idade >= 3 )  
-        {
-            alert ("adolescente");
-        }  
+        function verifica_idade(){
+     
+            idade = prompt("Digite ano de Nascimento"); 
+            
+            idade = 2025 - idade ;       
+        
+           
+            if (idade >= 60 )  
+            {
+                alert ("idoso");
+            }  
 
-        else if  (idade >= 60)
-        {
-            alert("idoso");
+            else if (idade >= 18) 
+            {
+                alert ("adulto");
+            }  
+            else if  (idade >= 13)
+            {
+                alert("adolestente");
+            }          
+
+            else if  (idade <= 2)
+            {
+                alert("bebe");
+            }
         }
-        else if  (idade >= 2)
-        {
-            alert("bebe");
+        function maior(){
+            var n1 = prompt("digite o numero 1");//  1 3 1 2 2 3
+            var n2 = prompt("digite o numero 2"); // 2 2 3 3 1 1
+            var n1 = prompt("digite o numero 3"); // 3 1 2 1 3 2
+            
+            if (n1 > n2)
+            {   
+                 if ( n1 > n3)
+                 {
+                    alert("O numero maior é :  " + n1); 
+                 } else {
+                    alert("O numero maior é :  " + n3); 
+                 }
+                
+            } else{
+            
+                if ( n2 > n3){
+                alert("O numero maior é: " + n2);
+                }
+                else { 
+                     alert("O numero maior é: " + n3);
+                }
+            }        
+        
         }
+      
     </script>
 </head>
 <body>
     <H1>Aula de Javascript</H1>
+    <button onclick="verifica_idade()">Idade</button>
+
+    <button onclick="maior()">Maior</button>        
+        
+   
+    
 
 
 </body>
