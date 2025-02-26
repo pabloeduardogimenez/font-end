@@ -11,10 +11,49 @@ function oi(){
 }
 
 function maiusculas(){            
-    var  valor = texto.value;
-    toUpperCase(valor);
+    var  valor = texto.value;   
     mensagem.innerText =valor.toUpperCase();
+}
 
- 
+function letra(){            
+    var  valor = texto.value;
+    var primeira = valor.charAt(0); 
+    var resto = valor.substring(1,);  
+    mensagem.innerText = primeira.toUpperCase() + resto.toLowerCase();
+}
 
+function far2celcius(){
+    var Far =   texto.value;
+    var resultado = (5 * (Far-32) / 9);
+    mensagem.innerText =resultado;
+}
+
+function somar(){
+    mensagem.innerText = "0";
+    var result = parseInt(num1.value) + parseInt(num2.value);
+    mensagem.innerText = result;
+    
+}
+
+function sub(){
+    mensagem.innerText = "0";
+    var result = parseInt(num1.value) - parseInt(num2.value);
+    mensagem.innerText = result;    
+}
+
+function div(){
+    mensagem.innerText = "0";
+    if (parseInt(num2.value) == 0){
+        alert(" Não possivél dividir por zero");
+    } else {
+    var result = parseInt(num1.value) / parseInt(num2.value);
+    mensagem.innerText = result;
+    }
+      
+}
+
+function mult(){
+    mensagem.innerText = "0";
+    var result = parseInt(num1.value) * parseInt(num2.value);
+    mensagem.innerText = result;    
 }
