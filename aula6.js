@@ -72,7 +72,7 @@ function vogal(){
     // ou -> ||
     // e -> &&
 
-    var valor = valor.text;
+    var valor = valor.value;
     var a = "a";
     var e = "e";
     var i = "i";
