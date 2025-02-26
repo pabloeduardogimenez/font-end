@@ -57,3 +57,34 @@ function mult(){
     var result = parseInt(num1.value) * parseInt(num2.value);
     mensagem.innerText = result;    
 }
+
+function par(){
+    var  valor = parseInt(text.value);
+    if ((valor % 2) == 0){
+        mensagem.innerText = "Par";
+    } else {
+        mensagem.innerText = "Impar";
+    }
+}
+
+function vogal(){
+
+    // ou -> ||
+    // e -> &&
+
+    var valor = valor.text;
+    var a = "a";
+    var e = "e";
+    var i = "i";
+    var u = "u";
+    var oi = "o";
+
+    if ( valor == "a" || valor == "e" || valor == "i" || valor == "o" || valor == "u") {
+        mensagem.innerText = "vogal";
+    }  
+    else
+    {
+        mensagem.innerText = "Consoante";
+    }  
+
+}
