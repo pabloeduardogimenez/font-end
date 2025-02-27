@@ -70,9 +70,23 @@ function notas(){
 // vai dizer numeros da sequencia 
 // 8 
 function fibo(){
-    var num = valor.value;
-   
-    for (var ini = 0 ;  ) {
+    var num = valor.value; 
+    var soma ;
+    var numero1 = 1;
+    var numero2 = 1;  
+    console.log( "fibonacci =  " +  num  );
+    console.log(  "0" );
+    console.log(  "1" );
+    console.log(  "1" );
+
+    for (var ini = 1 ; ini <= num ; ini+= 1 )
+    {
+         
+        soma = numero1 + numero2;
+        numero2 = numero1;
+        numero1 = soma;        
+
+        console.log(  soma );
 
     }
 
