@@ -4,6 +4,7 @@ function mudar()
     $(".titulo").css("color", cor);
 }
 
+
 function add()
 {   
   
@@ -24,7 +25,10 @@ function add()
 }
 
 $(document).ready(function(){
+
+    // adicionando evento
     $(".bt-add").click(add);
+
     $(".titulo").css("color", "red");
 
     $("h1" , "li").clik(function(){
