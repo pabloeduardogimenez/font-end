@@ -24,17 +24,19 @@ function add()
 
 }
 
-$(document).ready(function(){
+//documento carregado
 
-    // adicionando evento
+$(document).ready(function () {
+
+    // adicionando evento    
     $(".bt-add").click(add);
 
-    $(".titulo").css("color", "red");
+    $(".titulo").css("color", "red")
 
-    $("h1" , "li").clik(function(){
+    $("h1 , li").click(function(){
         var nova = $("#cor").val();
         $(this).css("color", nova);
-    });
+    })
 
 
 });
